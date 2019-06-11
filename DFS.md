@@ -14,7 +14,7 @@
 
 ## 以圖為例
 
-<img src="images/tree-1.jpg" width="500px" />
+<img src="images/tree-1.jpg" width="400px" />
 
 1. 將A放入queue中
 2. 發現B、C、D都是未檢查過的節點，將B、C、D依序放入queue中
