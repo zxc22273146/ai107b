@@ -20,16 +20,6 @@ function init(g) { // 初始化、設定 visited 為 0
   for (i in g) g[i].v = 0;
 }
 
-function dfs(g, node) { // 深度優先搜尋
-  if (g[node].v !=0) return;   // 如果已訪問過，就不再訪問
-  printf("%d=>", node);       // 否則、印出節點
-  g[node].v = 1;              //   並設定為已訪問
-  var neighbors = g[node].n;  // 取出鄰居節點
-  for (var i in neighbors) {  // 對於每個鄰居
-    dfs(g, neighbors[i]);     //   逐一進行訪問
-  }
-}
-
 var queue=[1];            // BFS 用的 queue, 起始點為 1。
 
 function bfs(g, q) { // 廣度優先搜尋
@@ -49,5 +39,4 @@ function bfs(g, q) { // 廣度優先搜尋
   bfs(g, q);
 }
 
-printf("dfs:"); init(g); dfs(g, 1); printf("\n");     // 呼叫深度優先搜尋。
 printf("bfs:"); init(g); bfs(g, queue); printf("\n"); // 呼叫廣度優先搜尋。

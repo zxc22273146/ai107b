@@ -9,12 +9,12 @@
 3. 檢查此節點是否有尚未檢查過的子節點，並取得第一個未檢查的子節點
 4. 重複步驟2、3
 5. 如果不存在尚未檢查過的子節點，取得上一層節點，並重複步驟2、3
-6. 重複步驟4
+6. 重複步驟5
 7. 若整張圖都檢查過了，結束搜尋，並回傳結果
 
 ## 以圖為例
 
-<img src="../images/tree-1.jpg" width="400px" />
+<img src="../images/tree.jpg" width="400px" />
 
 1. 取得根節點A
 2. 發現B為第一個尚未檢查的子節點，取得B
@@ -259,8 +259,11 @@ ooooo===o======
 
 參考資料 :
 
-以深度優先搜尋解決老鼠走迷宮問題 :
+1. 以深度優先搜尋解決老鼠走迷宮問題 :
 https://misavo.com/view/ai/search_dfs_mousepath.md
 
-深度優先搜尋法 :
+2. 深度優先搜尋法 :
 http://simonsays-tw.com/web/DFS-BFS/DepthFirstSearch.html
+
+3. 維基百科 :
+https://zh.wikipedia.org/wiki/%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2
