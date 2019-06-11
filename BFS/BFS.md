@@ -32,3 +32,14 @@
 PS C:\Users\a\Desktop\ai107b\BFS> node bfs
 bfs:1=>2=>5=>3=>4=>6=>
 ```
+
+參考資料 :
+
+1. 深度與廣度搜尋法 :
+https://misavo.com/view/ai/search_jscode.md
+
+2. 廣度優先搜尋法 :
+http://simonsays-tw.com/web/DFS-BFS/BreadthFirstSearch.html
+
+3. 廣度優先搜尋 :
+https://zh.wikipedia.org/wiki/%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2
